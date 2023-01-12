@@ -1,0 +1,11 @@
+<button type="button" (click)="startPrimeGenerator()">Start</button>
+<button type="button" (click)="pausePrimeGenerator()">Stop</button>
+<div class="prime-number-generator">
+  <div class="prime-number-generator__row">
+    Number of found primes: {{ primeNumbers.length }}
+  </div>
+  <div class="prime-number-generator__row">Primes:</div>
+  <ng-container *ngFor="let aaa of primeNumbers">
+    {{ aaa }},&nbsp;
+  </ng-container>
+</div>

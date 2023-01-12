@@ -1,0 +1,10 @@
+.prime-number-generator {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  &__row {
+    display: flex;
+    width: 100%;
+  }
+}

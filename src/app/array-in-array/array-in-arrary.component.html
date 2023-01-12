@@ -1,0 +1,18 @@
+<p>numberArray1: {{ numberArray1 }}</p>
+<p>numberArray2: {{ numberArray2 }}</p>
+<p>
+  setDifference numberArray1, numberArray2:
+  {{ setDifference(numberArray1, numberArray2) }}
+</p>
+<p>
+  setDifference numberArray2, numberArray1:
+  {{ setDifference(numberArray2, numberArray1) }}
+</p>
+<hr />
+<p>objNumberArr1: {{ objNumberArr1 | json }}</p>
+<p>objNumberArr2: {{ objNumberArr2 | json }}</p>
+
+<p>
+  setDifference objNumberArr1, objNumberArr2:
+  {{ setDiffObj() | json }}
+</p>
